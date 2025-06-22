@@ -9,3 +9,6 @@ function getVowelCount(sentence){
 
   return count;
 }
+
+const vowelCount = getVowelCount("Apples are tasty fruits")
+console.log(`Vowel Count: ${vowelCount}`)
