@@ -28,3 +28,13 @@ if(score === 100){
 
 
 }
+
+// add pass or fail 
+
+function hasPassingGrade(score){
+  const grade = getGrade(score)
+  if(grade === 'F'){
+    return false;
+  }
+  return true;
+}
