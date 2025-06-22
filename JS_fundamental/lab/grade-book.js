@@ -38,3 +38,17 @@ function hasPassingGrade(score){
   }
   return true;
 }
+
+// final message
+
+function studentMsg(scores, studentScore){
+const average = getAverage(scores);
+const grade = getGrade(studentScore);
+const passed = hasPassingGrade(studentScore);
+
+  if(passed){
+    return `Class average: ${getAverage(scores)}. Your grade: ${getGrade(studentScore)}. You passed the course.`
+  }
+
+  return `Class average: ${getAverage(scores)}. Your grade: ${getGrade(studentScore)}. You failed the course.`
+}
