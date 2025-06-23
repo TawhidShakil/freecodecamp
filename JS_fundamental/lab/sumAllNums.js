@@ -6,3 +6,4 @@ function sumAll([n,m]){
 
   return sum;
 }
+
