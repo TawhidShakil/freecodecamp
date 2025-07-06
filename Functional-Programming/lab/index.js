@@ -84,3 +84,5 @@ sortBtn.addEventListener("click", () => {
     fillArrContainer(finalDiv, [...arr]);
     arrayContainer.appendChild(finalDiv);
 });
+
+
